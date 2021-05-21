@@ -1,11 +1,11 @@
-import "../styles/List.css";
+import "./List.sass";
 
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Droppable, Draggable } from "react-beautiful-dnd";
 
-import Card from "./Card";
-import CardEditor from "./CardEditor";
+import Card from "../Card/Card";
+import CardEditor from "../Card/CardEditor";
 import ListEditor from "./ListEditor";
 
 import shortid from "shortid";

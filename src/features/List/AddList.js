@@ -1,10 +1,10 @@
-import "../styles/AddList.css";
+import "./AddList.sass";
 
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import ListEditor from "./ListEditor";
 import shortid from "shortid";
-import EditButtons from "./EditButtons";
+import EditButtons from "../Card/EditButtons";
 
 class AddList extends Component {
   state = {

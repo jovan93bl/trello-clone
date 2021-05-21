@@ -1,7 +1,7 @@
-import "../styles/App.css";
+import "./App.sass";
 
 import React, { Component } from "react";
-import Board from "./Board";
+import Board from "../features/Board/Board";
 
 class App extends Component {
   render() {

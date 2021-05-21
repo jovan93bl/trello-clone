@@ -1,11 +1,11 @@
-import "../styles/Board.css";
+import "./Board.sass";
 
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { DragDropContext, Droppable } from "react-beautiful-dnd";
 
-import List from "./List";
-import AddList from "./AddList";
+import List from "../List/List";
+import AddList from "../List/AddList";
 
 class Board extends Component {
   state = {

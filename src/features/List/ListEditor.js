@@ -1,4 +1,4 @@
-import "../styles/ListEditor.css";
+import "./ListEditor.sass";
 
 import React, { Component } from "react";
 import TextareaAutosize from "react-textarea-autosize";
